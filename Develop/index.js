@@ -1,4 +1,8 @@
 const inquirer = require("inquirer");
+const fs = require("fs");
+const path = require("path");
+const generate = require("./utils/generateMarkdown")
+
 
 // array of questions for user
 const questions = [
@@ -14,6 +18,14 @@ const questions = [
 
 ];
 
+function write(file, data) {
+    return fs.writeFileSync(path.join(process.cwd(), file), data)
+
+
+
+
+}
+function start() {
 inquirer
     .prompt([
         {
@@ -72,16 +84,20 @@ inquirer
     .then(function (response) {
 //checking to see if the inquirer stored data correctly
         console.log(response.name)
-
-
-
-
-
+        console.log(response)
+       //this creates a blank readme file to which we will append data
+        // fs.writeFile("readme.md")
+        // fs.appendFileSync("readme.md", "# " + response.name + "\n", function(err) {
+        //     if(err) {
+        //         throw(error)
+        //     };
+        // } )
+        write("readme.md", generate({...response}));
 
 
     })
 
-
+}
 
 
 
@@ -97,3 +113,4 @@ inquirer
 
 // // function call to initialize program
 // init();
+start();
