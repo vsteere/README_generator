@@ -27,7 +27,7 @@ function generateMarkdown(data) {
 
   ## License
   [![License](https://img.shields.io/badge/license-${data.license}-blue.svg)](https://opensource.org/licenses/${data.license})
-  This application is created under the auspices of the ${data.license} license.
+  #### This application is created under the auspices of the ${data.license} license.
   ---
   
   ## Contributing
