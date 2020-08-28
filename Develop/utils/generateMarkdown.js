@@ -23,10 +23,15 @@ function generateMarkdown(data) {
   blah blah
   ${data.usage}
   
-
+${renderLicense(data.license, data.github)}
   
 `
   )
+}
+
+function renderLicense(license, github) {
+return `[![License](https://img.shields.io/badge/license-${license}-blue.svg)](https://github.com/${github})`
+
 }
 
 module.exports = generateMarkdown;
