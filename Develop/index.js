@@ -17,7 +17,7 @@ const questions = [
     "Please enter your preferred email address"
 
 ];
-
+//this was put together with the help of the tutor
 function write(file, data) {
     return fs.writeFileSync(path.join(process.cwd(), file), data)
 
@@ -85,13 +85,7 @@ inquirer
 //checking to see if the inquirer stored data correctly
         console.log(response.name)
         console.log(response)
-       //this creates a blank readme file to which we will append data
-        // fs.writeFile("readme.md")
-        // fs.appendFileSync("readme.md", "# " + response.name + "\n", function(err) {
-        //     if(err) {
-        //         throw(error)
-        //     };
-        // } )
+       
         write("readme.md", generate({...response}));
 
 
@@ -102,15 +96,5 @@ inquirer
 
 
 
-// // function to write README file
-// function writeToFile(fileName, data) {
-// }
 
-// // function to initialize program
-// function init() {
-
-// }
-
-// // function call to initialize program
-// init();
 start();
