@@ -22,8 +22,10 @@ function generateMarkdown(data) {
   ## Usage
   blah blah
   ${data.usage}
+
+  [![License](https://img.shields.io/badge/license-${data.license}-blue.svg)](https://github.com/${data.github})
   
-${renderLicense(data.license, data.github)}
+
   
 `
   )
