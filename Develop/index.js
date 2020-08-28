@@ -64,7 +64,7 @@ inquirer
             type: "list",
             message: questions[6],
             //types of licenses from article provided by TA
-            choices: ["MIT license", "Apache license", "GPL license", "no license"]
+            choices: ["MIT", "Apache", "GPL", "no license"]
         },
 
         {
