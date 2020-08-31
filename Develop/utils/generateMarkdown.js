@@ -45,6 +45,7 @@ function generateMarkdown(data) {
   ## Questions
   I can be reached at the following email address: ${data.email}
   
+  My GitHub profile link is: <https://www.github.com/${data.github}>
 `
   )
 }

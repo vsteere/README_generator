@@ -1,7 +1,7 @@
 
-  # me
+  # my project
   ## Description 
-  you
+  this is my project
   ## Table of Contents
   * [Installation](#installation)
   * [Usage](#usage)
@@ -14,32 +14,33 @@
   ---
   ## Installation 
   
-  blah
+  install inquirer package
 
   ---
   ## Usage
   
-  asdlfds
+  use this to create a readme file
 
   ---
 
   ## License
-  [![License](https://img.shields.io/badge/license-GPL-blue.svg)](https://opensource.org/licenses/GPL)
-  #### This application is created under the auspices of the GPL license.
+  [![License](https://img.shields.io/badge/license-Apache-blue.svg)](https://opensource.org/licenses/Apache)
+  #### This application is created under the auspices of the Apache license.
   ---
   
   ## Contributing
-  sdlfksdf
+  please contribute as needed
 
   ---
 
   ## Tests
    ```
-  sdlfjasdf
+  no testing
   ```
 
   ---
 
   ## Questions
-  I can be reached at the following email address: vssteere@blah.org
+  I can be reached at the following email address: vste@example.org
   
+  My GitHub profile link is: <https://www.github.com/vsteere>
