@@ -10,4 +10,4 @@ https://github.com/vsteere/README_generator
 Inquirer package
 Node.js
 
-![image of app](/Develop/image.jpg?raw=true "app image")
+![image of app](/Develop/image.JPG?raw=true "app image")
